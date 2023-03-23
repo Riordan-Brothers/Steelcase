@@ -1,0 +1,88 @@
+<Device Model="DIN-AP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="C2N-CBD-P" DeviceId="26" Name="624 see comment"/>
+      <Device Model="C2N-CBD-P" DeviceId="27" Name="625 (not used)"/>
+      <Device Model="C2N-CBD-P" DeviceId="28" Name="623"/>
+      <Device Model="C2N-CBD-P" DeviceId="29" Name="621"/>
+      <Device Model="C2N-CBD-P" DeviceId="2A" Name="hallway @609"/>
+      <Device Model="C2N-CBD-P" DeviceId="2B" Name="622"/>
+      <Device Model="C2N-CBD-P" DeviceId="2C" Name="629"/>
+      <Device Model="C2N-CBD-P" DeviceId="2D" Name="628"/>
+      <Device Model="C2N-CBD-P" DeviceId="2E" Name="627"/>
+      <Device Model="C2N-CBD-P" DeviceId="2F" Name="630"/>
+      <Device Model="C2N-CBD-P" DeviceId="30" Name="634"/>
+      <Device Model="C2N-CBD-P" DeviceId="31" Name="635"/>
+      <Device Model="C2N-CBD-P" DeviceId="32" Name="631"/>
+      <Device Model="C2N-CBD-P" DeviceId="33" Name="632"/>
+      <Device Model="C2N-CBD-P" DeviceId="34" Name="633"/>
+      <Device Model="C2N-CBD-P" DeviceId="35" Name="636 (not used)"/>
+      <Device Model="C2N-CBD-P" DeviceId="36" Name="637"/>
+      <Device Model="C2N-CBD-P" DeviceId="37" Name="638"/>
+      <Device Model="C2N-CBD-P" DeviceId="38" Name="640"/>
+      <Device Model="C2N-CBD-P" DeviceId="39" Name="641"/>
+      <Device Model="C2N-CBD-P" DeviceId="3A" Name="639"/>
+      <Device Model="C2N-CBD-P" DeviceId="3B" Name="626 (not used)"/>
+      <Device Model="C2N-CBD-P" DeviceId="3C" Name="620 Reception"/>
+      <Device Model="GL-EXP-DIMU-CN" DeviceId="3D" Name="629 pendant FIXED"/>
+      <Device Model="GL-EXP-DIMU-CN" DeviceId="3E" Name="631 pendant FIXED"/>
+      <Device Model="GL-EXP-DIMU-CN" DeviceId="3F" Name="632 pendant FIXED"/>
+      <Device Model="GL-EXP-DIMU-CN" DeviceId="40" Name="entrance track lights FIXED"/>
+      <Device Model="DIN-AO8" DeviceId="89" Name="DIN-AO8 1-8"/>
+      <Device Model="DIN-AO8" DeviceId="8A" Name="DIN-AO8 9-16"/>
+      <Device Model="DIN-AO8" DeviceId="8B" Name="DIN-AO8 17-24"/>
+      <Device Model="DIN-AO8" DeviceId="8C" Name="DIN-AO8 25-32"/>
+      <Device Model="DIN-AO8" DeviceId="8D" Name="DIN-AO8 33-40"/>
+      <Device Model="DIN-AO8" DeviceId="8E" Name="DIN-AO8 41-48"/>
+      <Device Model="DIN-AO8" DeviceId="8F" Name="DIN-AO8 49-56"/>
+      <Device Model="GLXX-CTRL" DeviceId="9E" Name="LCP1"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A0" Name="rm623"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A1" Name="rm624"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A2" Name="rm630 "/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A3" Name="hallway @ 628"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A4" Name="rm634"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A6" Name="rm627"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A7" Name="rm621"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A8" Name="rm629"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="A9" Name="rm628"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="AA" Name="rm631"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="AB" Name="rm633"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="AC" Name="rm641"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="AD" Name="rm639"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="AE" Name="rm642 occ1"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="AF" Name="rm642 occ2"/>
+      <Device Model="C2N-IO" DeviceId="B0" Name="624 shades"/>
+      <Device Model="C2N-IO" DeviceId="B1" Name="625 east shades"/>
+      <Device Model="C2N-IO" DeviceId="B2" Name="625 north shades"/>
+      <Device Model="C2N-IO" DeviceId="B3" Name="620 shades"/>
+      <Device Model="C2N-IO" DeviceId="B4" Name="626 shades"/>
+      <Device Model="C2N-IO" DeviceId="B5" Name="640 shades"/>
+      <Device Model="C2N-IO" DeviceId="B6" Name="642 shades"/>
+      <Device Model="C2N-IO" DeviceId="B7" Name="south shades"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="B8" Name="rm642 occ3"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="B9" Name="rm642 occ4"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="BA" Name="rm642 occ5"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="BB" Name="rm626 occ1"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="BC" Name="rm626 occ2"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="BD" Name="rm625"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="BE" Name="rm620 occ1"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="BF" Name="rm620 occ2"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="C1" Name="rm636"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="C2" Name="rm637"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="C3" Name="rm632"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="C4" Name="rm638"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="C5" Name="rm640"/>
+      <Device Model="GLS-ODT-C-CN" DeviceId="C6" Name="rm622"/>
+      <Device Model="GLS-SIM" DeviceId="D0" Name="625 lol"/>
+      <Device Model="GLS-SIM" DeviceId="D1" Name="620 lol"/>
+      <Device Model="GLS-SIM" DeviceId="D2" Name="626 lol"/>
+      <Device Model="GLS-SIM" DeviceId="D3" Name="642 lol"/>
+      <Device Model="GLS-SIM" DeviceId="D4" Name="638 lol"/>
+      <Device Model="GLS-SIM" DeviceId="D5" Name="640 lol"/>
+      <Device Model="GLS-SIM" DeviceId="D6" Name="637 lol"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="Core3 UI XPanel" DeviceId="03" Name="XPanel Exe"/>
+      <Device Model="Crestron_App" DeviceId="04" Name="Crestron App"/>
+      <Device Model="Core3 UI XPanel" DeviceId="05" Name="XPanel Web"/>
+   </Network>
+</Device>

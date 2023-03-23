@@ -1,0 +1,87 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.10.07
+  IsProgram=1
+  TopLevelProgram=1562489_Steelcase_CPP-1_11-09-218.smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=1562489_Steelcase_CPP-1_11-09-218.smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=1562489_Steelcase_CPP-1_11-09-218.sig
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=1562489_Steelcase_CPP-1_11-09-218.lpz
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=1562489_Steelcase_CPP-1_11-09-218.smft
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=1562489_Steelcase_CPP-1_11-09-218.lpz.hash
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=single button ltg cntl.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=cycle dim v2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=toggle v3.1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Scene FB 30 Loads MC v2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Scene FB 30 Loads MC.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Pharos Direct IRGB Control v2.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Pharos Control Helper v2.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Color Picker Helper Panel v1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Color Picker Helper Panel SPlus v1.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RBI Color Picker Helper Zone Control v1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Mobile Pro Project Name Grabber v1.10.ush
+  Scope=1
+[END]

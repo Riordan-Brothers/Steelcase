@@ -1,0 +1,156 @@
+/*
+Dealer Name: Riordan Brothers
+Programmer: Hope Roth
+Comments:
+*/
+
+
+#SYMBOL_NAME "RBI Pharos Helper v2"
+#HINT "Creates control strings"
+#CATEGORY "32" 
+
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+
+#DEFINE_CONSTANT fbName "fb"
+
+
+#HELP_BEGIN
+   Sends RGB and intensity levels to a Pharos controller using hex values
+#HELP_END
+
+DIGITAL_INPUT _SKIP_, _SKIP_, _SKIP_, _SKIP_, clearLVL, startPharos, stopPharos, pausePharos, resumePharos, rateChange, positionSet ;
+
+ANALOG_INPUT  whiteLvl, redLvl, greenLVL, blueLVL, rateChangeLVL, positionSetLVL; 
+
+BUFFER_INPUT pharosRX[2000];
+
+DIGITAL_OUTPUT _SKIP_, _SKIP_, _SKIP_, _SKIP_, startPharosFB, stopPharosFB, pausePharosFB;
+
+STRING_OUTPUT pharosTX;
+
+INTEGER_PARAMETER controlID, fadeTime, controlTypeParam;
+
+STRING controlType[20], sTempData[255];
+
+Function Send_Levels (integer White, integer Red, integer Green, integer Blue)
+{ 				
+	makestring(pharosTX, "%s%03u,%02X,%02X,%02X,%02X,%02u\r", controlType, controlID, White, Red, Green, Blue, fadeTime);
+	
+}
+
+Function Send_Control (string pharosCommand)
+{
+    makestring(pharosTX, "%s%s%03u\r", pharosCommand, controlType, controlID);
+
+}
+
+Function Process_FB (string Data){
+    string sTemp[25], sVal[20];
+		sTemp = remove(fbName, Data); //remove the fb prefix
+		
+
+}
+
+/*Parse FB*/
+
+
+THREADSAFE CHANGE pharosRX{
+
+	while(find("\r", pharosRX) > 0)
+
+		sTempData = gather("\r", pharosRX);
+       		 if(find (fbName, sTempData) > 0){
+                call Process_FB(sTempData);	
+			}
+				
+}
+
+
+/* RGBI Levels Change */
+
+
+PUSH clearLVL {
+
+      makestring(pharosTX, "%sClear%03u,%02u\r", controlType, controlID, fadeTime);
+	
+}
+
+
+
+Threadsafe CHANGE whiteLVL
+{
+
+	Send_Levels(whiteLVL, redLVL, greenLVL, blueLVL);
+
+
+}
+
+Threadsafe CHANGE redLVL
+{
+
+	Send_Levels(whiteLVL, redLVL, greenLVL, blueLVL);
+
+
+}
+
+Threadsafe CHANGE greenLVL
+{
+
+	Send_Levels(whiteLVL, redLVL, greenLVL, blueLVL);
+
+
+}
+
+Threadsafe CHANGE blueLVL
+{
+
+	Send_Levels(whiteLVL, redLVL, greenLVL, blueLVL);
+
+
+}
+
+/* Timeline and Scene Controls */
+
+push startPharos {
+
+   Send_Control("start");
+}
+
+push stopPharos {
+
+   Send_Control("stop");
+}
+
+push pausePharos {
+
+   Send_Control("pause");
+}
+
+push resumePharos {
+
+   Send_Control("resume");
+}
+
+
+
+       
+
+
+Function Main()
+{
+
+	SWITCH (controlTypeParam){
+
+	CASE(0): makestring(controlType, "group");  //control a group
+	CASE(1): makestring(controlType, "fixture"); //control an individual fixture
+	CASE(2): makestring(controlType, "TL"); //control a timeline
+	CASE(3): makestring(controlType, "scene"); //control a scene
+	CASE(2): makestring(controlType, "trigger"); //inject a trigger
+
+
+	}
+
+
+}

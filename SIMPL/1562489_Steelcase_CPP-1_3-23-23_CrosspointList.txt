@@ -1,0 +1,22 @@
+Crosspoint listing for C:\Users\Paul\Desktop\Steelcase\1562489_Steelcase_CPP-1_3-23-23.SMW
+
+Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
+
+Equipment Crosspoint Routing.                                                                       EquipID
+===========================================================================================================
+S-2.1 in macro S-5.10 (Module File C:\Users\Paul\Desktop\Steelcase\RBI Color Picker Helper          1
+ Zone Control v1.umc)                                                                               
+S-2.1 in macro S-5.11 (Module File C:\Users\Paul\Desktop\Steelcase\RBI Color Picker Helper          2
+ Zone Control v1.umc)                                                                               
+S-2.1 in macro S-5.12 (Module File C:\Users\Paul\Desktop\Steelcase\RBI Color Picker Helper          3
+ Zone Control v1.umc)                                                                               
+
+Control Crosspoint Routing.                                                                         ControlID
+=============================================================================================================
+S-1 in macro S-6.2.4.3 (Module File C:\Users\Paul\Desktop\Steelcase\RBI Color Picker Helpe          3
+r Panel v1.umc)                                                                                     
+S-1 in macro S-6.3.4.3 (Module File C:\Users\Paul\Desktop\Steelcase\RBI Color Picker Helpe          4
+r Panel v1.umc)                                                                                     
+S-1 in macro S-6.4.4.3 (Module File C:\Users\Paul\Desktop\Steelcase\RBI Color Picker Helpe          5
+r Panel v1.umc)                                                                                     
+
